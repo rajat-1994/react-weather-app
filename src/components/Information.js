@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "./FetchData.js";
 import { dateBuilder } from "./utils";
 
-function Information({ data }) {
+function Information() {
+  const data = useContext(DataContext);
+
   return (
     <div
       style={{ height: "300px" }}
