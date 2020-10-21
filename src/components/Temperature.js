@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { DataContext } from "./FetchData.js";
 
-const Temperature = ({ temperature }) => {
+const Temperature = () => {
   const data = useContext(DataContext);
 
   return (

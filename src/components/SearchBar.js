@@ -15,6 +15,7 @@ const SearchBar = ({ setLocation }) => {
         className="h-full w-full p-2 rounded-3xl outline-none cursor-pointer  "
         type="text"
         name="city"
+        autoComplete="off"
         placeholder=" e.g. London"
         onKeyDown={handleKeyDown}
       ></input>
