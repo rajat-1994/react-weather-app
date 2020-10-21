@@ -11,7 +11,8 @@ import SearchBar from "./SearchBar.js";
 export const DataContext = React.createContext();
 
 function FetchData() {
-  const api_key = "YOUR KEY";
+  const api_key = "e4c1dd6ed6bab6334ee5e5c9458624a0";
+  // "YOUR KEY";
 
   const [data, setData] = useState({});
   const [location, setLocation] = useState("London");
